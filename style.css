@@ -1,0 +1,144 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+body
+	{
+		background-image:url(camera.jpg);
+		font-family:Arial;
+		background-size:cover;
+		left:50px;
+		margin:100px;
+		margin-left:275px;
+				
+	}
+
+ul
+{
+	top:100px;
+	background-color:#ff9933;
+
+	list-style:none;
+	opacity:1;
+}
+ul li
+{
+	float:left;
+	
+	width:150px;
+	padding:0px;
+	height:30px;
+		
+	opacity:1;
+	line-height:30px;
+	text-align:center;
+	font-size:15px;
+	
+}
+
+ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	border:1px;
+}
+ul li a:hover
+{
+	background-color:#ff9933;
+	border:1px solid white;
+	border-bottom:1px double #fff;
+	border-radius:1px;
+	
+}
+ul li ul li{
+	display:none;
+}
+ul li:hover ul li{
+	display:block;
+	opacity:1;
+	border-bottom:1px;
+}
+.logo img
+	{
+		position:absolute;
+		width:159px;
+		height:auto;
+		float:left;
+		left:185px;
+		top:90;
+		
+		
+		margin-left:-150px;
+	}
+.insta img{
+	position:absolute;
+	width:35px;
+	border-bottom:0.5px dotted #fff;
+		height:auto;
+		float:left;
+		left:209px;
+		top:220px;
+		margin-left:-150px;
+}
+.facebook img{
+	position:absolute;
+	width:35px;
+	border-bottom:0.5px dotted #fff;
+		height:auto;
+		float:left;
+		left:209px;
+		top:325px;
+		margin-left:-150px;
+}
+.youtube img{
+	position:absolute;
+	width:40px;
+	border-bottom:0.5px dotted #fff;
+		height:auto;
+		float:left;
+		left:205px;
+		top:398px;
+		margin-left:-150px;
+}
+.hello
+{
+	position:absolute;
+	font-family:monospace;
+	width:1000px;
+	color:white;
+	top:550PX;
+	right:-145px;
+	font-size:35px;
+}
+.decr
+{
+	position:absolute;
+	font-family:monospace;
+	width:1000px;
+	color:#d3d3d3;
+	top:590PX;
+	right:-190px;
+	font-size:20px;
+}
+.mob
+{
+	position:absolute;
+	font-family:monospace;
+	width:1000px;
+	color:cyan;
+	top:610PX;
+	right:-239px;
+	font-size:20px;
+}
+
+.container{
+align:center;
+left:4500px;
+top:230px;
+}
+
+	
+	

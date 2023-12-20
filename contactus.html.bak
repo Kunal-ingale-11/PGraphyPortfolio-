@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>Registration form Using HTML/CSS</title>
+	<link rel="stylesheet" type="text/css" href="contactus.css">
+</head>  
+	<div class="title">
+		<h1>Student Registration</h1>
+	</div>
+ 
+		<form>
+ 			<input type="text" name="name" class="form-control" placeholder="Enter Your Name" required><br>
+			<input type="tele" name="phone" pattern="[0-9]{10}" class="form-control" placeholder="Enter Your Phone Number" required><br>
+			<input type="email" name="email" class="form-control" placeholder="Enter Your Email" required><br>
+			<input type="date" id="birthday" name="birthday" placeholder="Birthday"><br>
+			<textarea name="message" class="form-control" placeholder="Address " rows="4" required></textarea><br>
+			<input type="submit" name="" class="form-control submit" value="SEND MESSAGE">
+			
+		</form>
+	</div>
+	</body>
+	</html>
+	
